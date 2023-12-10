@@ -81,7 +81,6 @@ const Login =({isUserAuthenticated})=>{
     const signupUser = async () => {
         try {
             let response = await API.userSignup(singup);
-            console.log("bad mothefucker");
             if (response.isSuccess) {
                 setError('');
                 setSignup(signupInitialValues);

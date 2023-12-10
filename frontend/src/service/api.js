@@ -3,7 +3,7 @@ import { API_NOTIFICATION_MESSAGES ,SERVICE_URLS} from '../constants/config.js';
 import { getAccessToken,getType } from '../utils/common-utils.js';
 // ... (existing imports)
 
-const API_URL = '';
+const API_URL = 'https://blogapp-e14x.onrender.com/';
 
 const axiosInstance = axios.create({
     baseURL: API_URL,
